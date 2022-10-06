@@ -1,8 +1,6 @@
 import { Button, HStack, Text, useToast } from "native-base";
 import React, { useEffect, useState } from "react";
 
-// import { Container } from './styles';
-
 export const Dashboard: React.FC = () => {
   const [cupSize, setCupSize] = useState<number>(300);
   const [water, setWater] = useState<number>(0);
