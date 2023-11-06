@@ -1,7 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import { NativeBaseProvider } from "native-base";
 import { StyleSheet, View } from "react-native";
-import { Dashboard } from "./src/screens/dashboard";
+import { Dashboard } from "./src/screens/Dashboard";
 
 export default function App() {
   return (
